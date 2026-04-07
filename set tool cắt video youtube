@@ -1,0 +1,8 @@
+# Cập nhật hệ thống (tránh lỗi vặt)
+!apt update -y
+
+# Cài ffmpeg (quan trọng để ghép video + audio)
+!apt install ffmpeg -y
+
+# Cài yt-dlp (tool tải video)
+!pip install -U yt-dlp
