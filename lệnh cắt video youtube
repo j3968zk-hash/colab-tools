@@ -1,5 +1,0 @@
-!yt-dlp "https://www.youtube.com/watch?v=DBcNJQJvKx8" \
--f "bv*[height=1080][vcodec!=av01]+ba/b[height=1080]" \
---download-sections "*00:00:00-00:05:17" \
---merge-output-format mp4 \
--o "/content/drive/MyDrive/video/clip_1080.mp4"
